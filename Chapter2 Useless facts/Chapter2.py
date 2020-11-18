@@ -51,5 +51,12 @@ print("9 * 8 =", 9 * 8)
 print("19 / 4 =", 19 / 4)
 print("107 // 4 =", 107 // 4)
 print("107 % 4 =", 107 % 4)
-input("\n\nPress any key for the exit")
 
+print("Calculator")
+first_value = int(input("Please set how much coasts your product without tax: "))
+tax_value = float(19.5)
+
+result = (first_value+((first_value/100)*19.5))
+print("Price with tax: ", result)
+
+input("\n\nPress any key for the exit")
