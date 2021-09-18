@@ -61,3 +61,4 @@ print("Price with tax: ", result)
 
 # This is input - Git Test
 input("\n\nPress any key for the exit")
+# Some comment
